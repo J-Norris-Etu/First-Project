@@ -1,5 +1,7 @@
 const myImage = document.querySelector("img");
 
+
+//The cat smiler
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/Cat.png") {
@@ -12,6 +14,7 @@ myImage.addEventListener("click", () => {
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
+// Name setter
 function setUserName() {
   const myName = prompt("Please enter your name.");
   if (!myName) {
